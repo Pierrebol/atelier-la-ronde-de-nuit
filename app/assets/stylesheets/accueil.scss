@@ -1,0 +1,60 @@
+.home-container-global {
+    background-color: #f4ebe0;
+    width: 100%;
+    background: linear-gradient(
+        135deg, rgba(20, 20, 20, 0.8) 0%, rgba(20, 20, 20, 0.3) 50%),
+        url("https://img.lemde.fr/2019/08/01/957/0/3898/1946/1440/720/60/0/d565529_XCcBqhumf6nblv2Sc1k28Atq.jpg");
+}
+
+h1, h2 {
+    color: white;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+    color: white;
+    font-family: roboto;
+    font-weight: lighter;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.home-banner-content > ul > a {
+  text-decoration: none;
+}
+
+.home-banner {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.home-banner h1 {
+    margin-bottom: 0;
+}
+.home-banner h2 {
+    font-size: 25px;
+    font-weight: lighter;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+.home-banner a {
+    color: white;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+.home-footer {
+    text-align: center;
+    background-color: rgba(244,235,224, 0.6);
+}

@@ -1,0 +1,69 @@
+.prestations-container-global {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.prestations-titre {
+  p {
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+  }
+}
+
+.prestation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.conservation-img {
+  position: relative;
+  width: 70%;
+  img {
+    width: 100%;
+  }
+}
+.conservation-img-content {
+  position: absolute;
+  color: white;
+  width: cover;
+  width: 30%;
+  text-align: center;
+  top: 55%;
+  right: 55%;
+}
+
+.esthetique-img {
+  position: relative;
+  width: 70%;
+  img {
+    width: 100%;
+  }
+}
+.esthetique-img-content {
+  position: absolute;
+  color: white;
+  width: cover;
+  width: 30%;
+  text-align: center;
+  top: 55%;
+  right: 55%;
+}
+
+.preventive-img {
+  position: relative;
+  width: 70%;
+  img {
+    width: 100%;
+  }
+}
+.preventive-img-content {
+  position: absolute;
+  color: white;
+  width: cover;
+  width: 30%;
+  text-align: center;
+  top: 55%;
+  right: 55%;
+}

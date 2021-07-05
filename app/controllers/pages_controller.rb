@@ -4,4 +4,16 @@ class PagesController < ApplicationController
 
   def restauratrice
   end
+
+  def prestations
+  end
+
+  def galerie
+  end
+
+  def devis
+  end
+
+  def contact
+  end
 end

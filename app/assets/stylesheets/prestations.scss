@@ -33,6 +33,12 @@
   top: 55%;
   right: 55%;
 }
+.conservation-content {
+  margin-left: 120px;
+  h3 {
+    text-align: center;
+  }
+}
 
 .esthetique-img {
   position: relative;
@@ -50,6 +56,12 @@
   top: 55%;
   right: 55%;
 }
+.esthetique-content {
+  margin-right: 120px;
+  h3 {
+    text-align: center;
+  }
+}
 
 .preventive-img {
   position: relative;
@@ -66,4 +78,10 @@
   text-align: center;
   top: 55%;
   right: 55%;
+}
+.preventive-content {
+  margin-left: 120px;
+  h3 {
+    text-align: center;
+  }
 }

@@ -1,1 +1,25 @@
 <%= render "shared/navbar" %>
+
+<div class="form-contact container">
+  <h2>Contact</h2>
+  <div class="separateur"></div>
+  <div class="separateur"></div>
+  <form class="contact" style="" action="/contact.html" method="post" onsubmit="return verifierFormulaire('frmContact');" id="frmContact" enctype="multipart/form-data">
+    <input type="text" name="nom" id="nom" placeholder="Nom *" value="" class=" half" style="" title="requis">
+    <input type="text" name="prenom" id="prenom" placeholder="Prénom" value="" class=" half" style="">
+    <input type="text" name="telephone" id="telephone" placeholder="Télephone *" value="" class=" half" style="" title="tel">
+    <input type="text" onfocus="document.getElementsByName('js_action')[0].value = 'verification par remplissage js';" name="adme" id="adme" placeholder="Email *" value="" class=" half" style="" title="email">
+    <div class="clear">
+    </div>
+    <textarea name="commentaire" id="commentaire" rows="4" cols="30" class="" style="height: 100px;" placeholder="Votre message"></textarea>
+    <input type="hidden" name="email" id="email" value="">
+    <input type="hidden" name="__crdt" id="__crdt" value="1">
+    <input type="hidden" name="js_action" id="js_action" value="verification par remplissage js">
+    <input type="hidden" name="temp1" id="temp1" value="1626106588.0995">
+    <span id="consentement_bloc">
+      <input type="checkbox" value="oui" name="consentement" id="consentement" title="consentement" class="" style=""> En soumettant ce formulaire, j'accepte que les informations saisies soient traitées par Catherine Bollack dans le cadre de la demande de contact et de la relation commerciale qui peut en découler.</span>
+      <input type="hidden" name="token_frmContact" id="token_frmContact" value="dd756aaa1c1f4e32d5b27737b4be85b1ea42844a">
+      <input type="hidden" name="hideEnvoyer_frmContact" id="hideEnvoyer_frmContact" value="oui">
+  </form>
+</div>
+

@@ -1,0 +1,52 @@
+.form-contact {
+  background-color: white;
+  padding: 54px;
+  h2 {
+  color: black;
+  }
+}
+
+.form {
+  position: relative;
+  display: block;
+}
+
+#nom {
+  width: 50%;
+  float: left;
+  border-radius: 0px 0 0 0px;
+}
+
+#prenom {
+  border-radius: 0 0px 0px 0;
+  border-left: none;
+}
+
+#telephone {
+  width: 50%;
+  float: left;
+  border-radius: 0px 0 0 0px;
+}
+
+#adme {
+  border-radius: 0 0px 0px 0;
+  border-left: none;
+}
+
+#commentaire {
+  height: 100px;
+}
+
+.separateur {
+  width: 100%;
+  position: relative;
+  clear: both;
+  margin: 0 !important;
+  height: 1.6vw;
+}
+
+.half {
+  padding: 18px;
+}
+
+

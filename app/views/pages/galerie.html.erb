@@ -3,13 +3,30 @@
 <div class="cards">
 
   <div class="card-category">
-    <%= image_tag "femme_avant_apres.jpeg" %>
+    <%= image_tag "femme_avant_apres.jpeg", alt:"Femme" %>
+  </div>
+<!--   <div class="card-category">
+    <#%= image_tag "maison_avant" %>
   </div>
   <div class="card-category">
-    <%= image_tag "maison_avant" %>
+    <#%= image_tag "maison_apres" %>
+  </div> -->
+    <div class="box">
+    <div class="box-inner">
+      <div class="box-front">
+        <div class="card-category">
+          <%= image_tag "maison_avant" %>
+        </div>
+      </div>
+      <div class="box-back">
+        <div class="card-category">
+        <%= image_tag "maison_apres" %>
+        </div>
+      </div>
+    </div>
   </div>
   <div class="card-category">
-    <%= image_tag "maison_apres" %>
+    <%= image_tag "Chiens" %>
   </div>
   <div class="card-category">
     <%= image_tag "methode1.jpeg" %>
@@ -22,9 +39,6 @@
   </div>
   <div class="card-category">
     <%= image_tag "methode4.jpeg" %>
-  </div>
-  <div class="card-category">
-    <%= image_tag "Chiens" %>
   </div>
   <div class="card-category">
     <%= image_tag "eponge bleu (1)" %>

@@ -5,6 +5,7 @@
 
 .prestations-titre {
   p {
+    text-align: center;
     color: black;
     font-size: 25px;
     padding: 15px;
@@ -27,14 +28,13 @@
 .conservation-img-content {
   position: absolute;
   color: white;
-  width: cover;
-  width: 30%;
   text-align: center;
-  top: 55%;
-  right: 55%;
+  top: 100px;
 }
 .conservation-content {
   margin-left: 120px;
+  display: grid;
+  padding: 10px;
   h3 {
     text-align: center;
   }
@@ -50,14 +50,13 @@
 .esthetique-img-content {
   position: absolute;
   color: white;
-  width: cover;
-  width: 30%;
   text-align: center;
-  top: 55%;
-  right: 55%;
+  top: 100%;
 }
 .esthetique-content {
   margin-right: 120px;
+  display: grid;
+  padding: 10px;
   h3 {
     text-align: center;
   }
@@ -81,6 +80,8 @@
 }
 .preventive-content {
   margin-left: 120px;
+  display: grid;
+  padding: 10px;
   h3 {
     text-align: center;
   }

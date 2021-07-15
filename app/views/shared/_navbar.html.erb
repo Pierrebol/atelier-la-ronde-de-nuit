@@ -2,24 +2,12 @@
    <h1 id="navbar-title"> Atelier "La Ronde de Nuit"</h1>
    <h2 id="navbar-description">Restauration et Conservation de peintures anciennes</h2>
    <ul>
-    <li class="nav-item <%= active_class(accueil_path) %>">
-      <%= link_to "Accueil", accueil_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item <%= active_class(restauratrice_path) %>">
-      <%= link_to "La Restauratrice", restauratrice_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item <%= active_class(prestations_path) %>">
-      <%= link_to "Prestations", prestations_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item <%= active_class(galerie_path) %>">
-      <%= link_to "Galerie", galerie_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item <%= active_class(devis_path) %>">
-      <%= link_to "Devis", devis_path, class: "nav-link" %>
-    </li>
-    <li class="nav-item <%= active_class(contact_path) %>">
-      <%= link_to "Contact", contact_path, class: "nav-link" %>
-    </li>
+      <%= link_to "Accueil", accueil_path%>
+      <%= link_to "La Restauratrice", restauratrice_path %>
+      <%= link_to "Prestations", prestations_path %>
+      <%= link_to "Galerie", galerie_path %>
+      <%= link_to "Devis", devis_path %>
+      <%= link_to "Contact", contact_path %>
    </ul>
    <div class="trait_dessus"></div>
 </div>

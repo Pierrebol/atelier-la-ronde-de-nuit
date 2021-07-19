@@ -1,3 +1,11 @@
+.trait_dessus_presta {
+  border-top: 1px solid black;
+  width : 80%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .prestations-container-global {
   width: 80%;
   margin: 0 auto;
@@ -15,79 +23,107 @@
 .prestation {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
 }
 
+.conservation_img_content_global {
+  padding: 12px;
+}
+.conservation {
+  background-color: rgba(120, 120, 120, 0.1);
+  padding: 14px;
+  border-radius: 5px;
+  // border: 1px solid black;
+}
 .conservation-img {
   position: relative;
   width: 70%;
   img {
-    width: 100%;
+    width: 440px;
+    // width: 100%;
+    height: 400px;
+    object-fit: cover;
   }
 }
 .conservation-img-content {
-  position: absolute;
-  color: white;
   text-align: center;
-  top: 100px;
+  h3 {
+    text-decoration: underline;
+  }
 }
 .conservation-content {
-  margin-left: 120px;
   display: grid;
   padding: 10px;
   h3 {
     text-align: center;
-    text-decoration: underline;
+    font-size: 20px;
+  }
+  ul {
+    margin-left: 35px;
   }
 }
 
+.esthetique {
+  background-color: rgba(120, 120, 120, 0.1);
+  padding: 14px;
+  border-radius: 5px;
+  // border: 16px solid darkolivegreen;
+}
+.esthetique_global {
+  padding: 12px;
+}
 .esthetique-img {
   position: relative;
   width: 70%;
   img {
-    width: 100%;
+    width: 440px;
+    height: 400px;
+    object-fit: cover;
   }
 }
 .esthetique-img-content {
-  position: absolute;
-  color: white;
   text-align: center;
-  top: 123%;
-  left: 55%;
-  width: 30%;
+  h3 {
+    text-decoration: underline;
+  }
 }
 .esthetique-content {
-  margin-right: 120px;
   display: grid;
   padding: 10px;
   h3 {
     text-align: center;
-    text-decoration: underline;
+    font-size: 20px;
   }
 }
 
+.preventive {
+  background-color: rgba(120, 120, 120, 0.1);
+  padding: 14px;
+  border-radius: 5px;
+  // border: 16px solid darkolivegreen;
+}
 .preventive-img {
   position: relative;
   width: 70%;
   img {
-    width: 100%;
+    width: 440px;
+    height: 400px;
+    object-fit: cover;
   }
 }
 .preventive-img-content {
-  position: absolute;
-  color: white;
-  width: cover;
-  width: 30%;
   text-align: center;
-  top: 190%;
-  right: 57%;
-}
-.preventive-content {
-  margin-left: 120px;
-  display: grid;
-  padding: 10px;
+  display: table-caption;
+  margin-top: 48px;
   h3 {
-    text-align: center;
     text-decoration: underline;
   }
+}
+.preventive-content {
+  padding: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.preventive_global {
+  padding: 12px;
+  display: table;
 }

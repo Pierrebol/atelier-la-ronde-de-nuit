@@ -4,6 +4,5 @@ Rails.application.routes.draw do
   get 'restauratrice', to: 'pages#restauratrice', as: :restauratrice
   get 'prestations', to: 'pages#prestations', as: :prestations
   get 'galerie', to: 'pages#galerie', as: :galerie
-  get 'devis', to: 'pages#devis', as: :devis
   get 'contact', to: 'pages#contact', as: :contact
 end

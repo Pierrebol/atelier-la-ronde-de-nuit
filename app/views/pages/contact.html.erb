@@ -1,6 +1,6 @@
 <%= render "shared/navbar" %>
 
-<div class="form-contact container">
+<!-- <div class="form-contact container">
   <h2>Contact</h2>
   <div class="separateur"></div>
   <div class="separateur"></div>
@@ -21,5 +21,34 @@
       <input type="hidden" name="token_frmContact" id="token_frmContact" value="dd756aaa1c1f4e32d5b27737b4be85b1ea42844a">
       <input type="hidden" name="hideEnvoyer_frmContact" id="hideEnvoyer_frmContact" value="oui">
   </form>
-</div>
+</div> -->
+
+<form class="container">
+  <div class="form-group">
+    <label for="exampleInputName">Nom</label>
+    <input type="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Bollack">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPrenom">Prénom</label>
+    <input type="name" class="form-control" id="exampleInputPrenom" aria-describedby="emailHelp" placeholder="Paul">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail">Email</label>
+    <input type="name" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="paul.bollack@gmail.com">
+    <small id="emailHelp" class="form-text text-muted">Nous ne communiquerons jamais votre email à qui que ce soit.</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputAdress">Addresse</label>
+    <input type="adress" class="form-control" id="exampleInputAdress" aria-describedby="emailHelp" placeholder="9 Rue Drouot, 75009 Paris">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputMessage">Message</label>
+    <textarea class="form-control" id="exampleInputMessage" rows="3" placeholder="Bonjour, j'ai un tableau de Rembrandt à faire restaurer. Seriez-vous disponible pour un rendez-vous ?"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlPhoto">Photos si possible</label>
+    <input type="file" class="form-control-file" id="exampleFormControlPhoto">
+  </div>
+  <button type="submit" class="btn btn-primary">Envoyer</button>
+</form>
 

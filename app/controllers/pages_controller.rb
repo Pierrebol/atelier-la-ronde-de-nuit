@@ -11,9 +11,6 @@ class PagesController < ApplicationController
   def galerie
   end
 
-  def devis
-  end
-
   def contact
   end
 end
